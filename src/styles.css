@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+
+.dot-color {
+    background-color: black;
+    margin-right: 20px;
+}
+
+
+.artjunks {
+
+}
+
+.rectangle {
+    background-color: black;
+    width: 60px;
+    height: 25px;
+    margin-left: 555px;
+    margin-top: 180px;
+}
+
+.h1 {
+    max-width: 240px;
+    margin: 40px auto 0 auto;
+}
+
+.description {
+    max-width: 240px;
+    margin: 20px auto 0 auto;
+}
+.button {
+    margin-top: 20px;
+    margin-left: 555px;
+}
