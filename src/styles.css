@@ -1,40 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.container> img {
+    width: 100%;
+}
+
+.container .text {
+    position: absolute;
+    right: 20px;
+    top: 20px;    
+}
+
 .navbar {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    max-width: 250px;
-    margin: 0 auto;
 }
 
 
 .dot-color {
-    background-color: black;
-    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+    top: 32px;
+    left: 311px;
 }
 
 
 .artjunks {
-
+    font-family: Inter;
+    font-size: 30.4px;
+    font-weight: 900;
+    line-height: 36.79px;
+    text-align: left;
+    width: 167px;
+    height: 37px;
+    color: #FFFFFF;
 }
 
 .rectangle {
-    background-color: black;
-    width: 60px;
-    height: 25px;
-    margin-left: 555px;
+    width: 90px;
+    height: 15px;
+    background: #FFFFFF;
     margin-top: 180px;
 }
 
 .h1 {
-    max-width: 240px;
-    margin: 40px auto 0 auto;
+    font-family: Libre Caslon Display;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    width: 314px;
+    height: 186px;
+    border: 1px 0px 0px 0px;
+    margin-bottom: 80px;
+    color: #FFFFFF;
+
 }
 
 .description {
-    max-width: 240px;
-    margin: 20px auto 0 auto;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.33px;
+    text-align: left;
+    width: 314px;
+    height: 90px;
+    color: #FFFFFF;
+
 }
+
 .button {
-    margin-top: 20px;
-    margin-left: 555px;
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 153px;
+    height: 42px;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.button-info {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    width: 98px;
+    height: 22px;
+    top: 9px;
+    left: 27px;
+    margin-left: 25px;
+    color: #FFFFFF;
+}
+
+.h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    width: 161px;
+    height: 29px;
+    margin-top: 50px;    
 }
