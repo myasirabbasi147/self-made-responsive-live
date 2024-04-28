@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,14 +12,14 @@
     position: relative;
 }
 
-.container> img {
+.container>img {
     width: 100%;
 }
 
 .container .text {
     position: absolute;
     right: 20px;
-    top: 20px;    
+    top: 20px;
 }
 
 .navbar {
@@ -111,5 +111,73 @@
     text-align: left;
     width: 161px;
     height: 29px;
-    margin-top: 50px;    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-1-wrapper {
+    width: 311px;
+    height: 619px;
+    top: 1209px;
+    left: 32px;
+    max-width: 311px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card-1 {
+    width: 311px;
+    height: 352px;
+    border-radius: 4px 0px 0px 0px;
+}
+
+.date {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.73px;
+    text-align: left;
+    width: 96px;
+    height: 16px;
+    top: 387px;
+    left: 32px;
+    color: #B7B7B7;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.card-1-para {
+    max-width: 200px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    height: 120px;
+    top: 431px;
+    left: 32px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.read-more-button {
+    border: 0;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    width: 96px;
+    height: 18px;
+    top: 569px;
+    left: 183px;
+    color: #D9852C;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+
+.para-info {
+    border: 1px solid #DDDDDD;
+    margin-top: 0;
 }
