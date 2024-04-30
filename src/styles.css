@@ -115,10 +115,11 @@
     height: 29px;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 30px;
+    margin-left: 39px;
 }
 
 .card-1-wrapper {
+    display: block;
     width: 311px;
     height: 619px;
     top: 1209px;
@@ -127,8 +128,13 @@
     margin: 0 auto;
 }
 
+.card-1-wrapper-tab {
+    display: none;
+}
+
 
 .date {
+    display: block;
     font-family: Inter;
     font-size: 13px;
     font-weight: 500;
@@ -143,7 +149,13 @@
     margin-left: 20px;
 }
 
+.date-tab {
+    display: none;
+}
+
+
 .card-para {
+    display: block;
     max-width: 250px;
     font-family: Inter;
     font-size: 20px;
@@ -158,7 +170,13 @@
     color: black;
 }
 
+
+.card-para-tab {
+    display: none;
+}
+
 .read-more-button {
+    display: block;
     border: 0;
     font-family: Inter;
     font-size: 15px;
@@ -175,22 +193,43 @@
     margin-bottom: 30px;
 }
 
+.read-more-button-tab {
+    display: none;
+}
+
 .para-info {
+    display: block;
     border: 1px solid #DDDDDD;
     margin-top: 0;
 }
 
+.para-info-tab {
+    display: none;
+}
+
 .card-2-wrapper {
+    display: block;
     width: 311px;
     height: 619px;
     max-width: 311px;
-    margin: 100px auto 0 auto;
+    margin: 30px auto 0 auto;
 }
+
+.card-2-wrapper-tab {
+    display: none;
+}
+
+
 .card-3-wrapper {
+    display: block;
     width: 311px;
     height: 619px;
     max-width: 311px;
     margin: 30px auto 20px auto;
+}
+
+.card-3-wrapper-tab {
+    display: none;
 }
 
 @media screen and (min-width:744px) {
@@ -250,7 +289,7 @@
         left: 72px;
         margin-top: 80px;
         margin-bottom: 60px;
-        margin-left: 82px;     
+        margin-left: 95px;     
     }
 
 
@@ -263,47 +302,95 @@
         margin: 0 auto;
     }
 
+    .card-1-wrapper-tab {
+        display: block;
+        width: 187px;
+        height: 635px;
+        margin: 0;
+    }
+
     .card-1-wrapper {
+        display: none;
+    }
+
+    .para-info {
+        display: none;
+    }
+
+    .para-info-tab {
+        display: block;
+        border: 1px solid #DDDDDD;
+        margin-top: 0;
+    }
+
+    .card-2-wrapper-tab {
+        display: block;
         width: 187px;
         height: 635px;
         margin: 0;
     }
 
     .card-2-wrapper {
+        display: none;
+    }
+
+    .card-3-wrapper-tab {
+        display: block;
         width: 187px;
         height: 635px;
         margin: 0;
     }
 
     .card-3-wrapper {
-        width: 187px;
-        height: 635px;
-        margin: 0;
-    }
-
-    .cards-img-mob {
         display: none;
     }
 
-    .card-para {
+
+    .card-para-tab {
+        display: block;
+        font-family: Inter;
         font-size: 15px;
         font-weight: 700;
         line-height: 18.15px;
         width: 123px;
         height: 126px;
+        text-align: left;
         top: 431px;
-        left: 32px;        
-    }
-
-    .date {
-        margin: 30px auto 0 auto;
-    }
-
-    .card-para {
+        left: 32px;
+        color: black;    
         margin: 30px auto 20px auto;
     }
 
+    .card-para {
+        display: none;
+    }
+
+    .date-tab {
+        display: block;
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.73px;
+        text-align: left;
+        width: 96px;
+        height: 16px;
+        top: 387px;
+        left: 32px;        
+        margin: 30px auto 0 auto;
+        color: #B7B7B7;
+    }
+
+    .date {
+        display: none;
+    }
+
+
     .read-more-button {
+        display: none;
+    }
+
+    .read-more-button-tab {
+        display: block;
         font-size: 15px;
         font-weight: 500;
         line-height: 18.15px;
@@ -311,7 +398,13 @@
         height: 18px;
         top: 585px;
         left: 59px;
-        margin-left: 45px;        
+        margin-left: 45px;
+        color: #D9852C;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 60px;
+        margin-bottom: 40px;
+        border: transparent;        
     }
 }
 @media screen and (min-width:1440px) {
