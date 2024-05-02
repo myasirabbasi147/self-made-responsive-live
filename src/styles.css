@@ -123,16 +123,13 @@
     height: 29px;
     margin-top: 60px;
     margin-bottom: 60px;
-    margin-left: 39px;
+    margin-left: 70px;
 }
 
 .card-1-wrapper {
     display: block;
     width: 311px;
     height: 619px;
-    top: 1209px;
-    left: 32px;
-    max-width: 311px;
     margin: 0 auto;
 }
 
@@ -150,8 +147,6 @@
     text-align: left;
     width: 96px;
     height: 16px;
-    top: 387px;
-    left: 32px;
     color: #B7B7B7;
     margin-top: 30px;
     margin-left: 20px;
@@ -171,8 +166,6 @@
     line-height: 24.2px;
     text-align: left;
     height: 120px;
-    top: 431px;
-    left: 32px;
     margin-top: 30px;
     margin-left: 20px;
     color: black;
@@ -192,8 +185,6 @@
     line-height: 18.15px;
     width: 96px;
     height: 18px;
-    top: 569px;
-    left: 183px;
     color: #D9852C;
     background-color: white;
     margin-top: 10px;
@@ -219,7 +210,6 @@
     display: block;
     width: 311px;
     height: 619px;
-    max-width: 311px;
     margin: 30px auto 0 auto;
 }
 
@@ -473,17 +463,11 @@
         margin-top: 50px;
     }
 
-
-    .cards-wrapper-pc {
-        display: block;
+    .cards-wrapper-tab {
+        display: none;
     }
-
-
     .cards-wrapper {
         display: none;
     }
 
-    .cards-wrapper-tab {
-        display: none;
-    }
 }
