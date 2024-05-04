@@ -126,7 +126,7 @@
     margin-left: 70px;
 }
 
-.card-1-wrapper {
+.card-1-wrapper-mob {
     display: block;
     width: 311px;
     height: 619px;
@@ -138,7 +138,7 @@
 }
 
 
-.date {
+.date-mob {
     display: block;
     font-family: Inter;
     font-size: 13px;
@@ -157,7 +157,7 @@
 }
 
 
-.card-para {
+.card-para-mob {
     display: block;
     max-width: 250px;
     font-family: Inter;
@@ -176,7 +176,7 @@
     display: none;
 }
 
-.read-more-button {
+.read-more-button-mob {
     display: block;
     border: 0;
     font-family: Inter;
@@ -196,7 +196,7 @@
     display: none;
 }
 
-.para-info {
+.para-info-mob {
     display: block;
     border: 1px solid #DDDDDD;
     margin-top: 0;
@@ -206,7 +206,7 @@
     display: none;
 }
 
-.card-2-wrapper {
+.card-2-wrapper-mob {
     display: block;
     width: 311px;
     height: 619px;
@@ -218,7 +218,7 @@
 }
 
 
-.card-3-wrapper {
+.card-3-wrapper-mob {
     display: block;
     width: 311px;
     height: 619px;
@@ -307,11 +307,11 @@
         margin: 0;
     }
 
-    .card-1-wrapper {
+    .card-1-wrapper-mob {
         display: none;
     }
 
-    .para-info {
+    .para-info-mob {
         display: none;
     }
 
@@ -328,7 +328,7 @@
         margin: 0;
     }
 
-    .card-2-wrapper {
+    .card-2-wrapper-mob {
         display: none;
     }
 
@@ -339,7 +339,7 @@
         margin: 0;
     }
 
-    .card-3-wrapper {
+    .card-3-wrapper-mob {
         display: none;
     }
 
@@ -359,7 +359,7 @@
         margin: 30px auto 20px auto;
     }
 
-    .card-para {
+    .card-para-mob {
         display: none;
     }
 
@@ -378,12 +378,12 @@
         color: #B7B7B7;
     }
 
-    .date {
+    .date-mob {
         display: none;
     }
 
 
-    .read-more-button {
+    .read-more-button-mob {
         display: none;
     }
 
@@ -463,11 +463,105 @@
         margin-top: 50px;
     }
 
+    .h3 {
+        margin-left: 130px;
+    }
+
     .cards-wrapper-tab {
         display: none;
     }
-    .cards-wrapper {
+    .cards-wrapper-mob {
         display: none;
     }
+
+    .cards-wrapper-pc {
+        display: block;
+        display: flex;
+        flex-direction: row;
+        max-width: 1220px;
+        margin-left: 130px;
+        gap: 20px;
+        object-fit: cover;
+    }
+
+
+    .card-img-pc {
+        display: block;
+        width: 350px;
+        height: 352px;
+    }
+
+    .card-1-wrapper-pc {
+        display: block;
+        width: 350px;
+        height: 635px;
+    }
+
+    .card-2-wrapper-pc {
+        display: block;
+        width: 350px;
+        height: 635px;
+    }
+
+    .card-3-wrapper-pc {
+        display: block;
+        width: 350px;
+        height: 635px;
+    }
+
+    .date-pc {
+        display: block;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18.15px;
+        width: 110px;
+        height: 18px;
+        color: #B7B7B7;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .card-para-pc {
+        display: block;
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.26px;
+        width: 340px;
+        height: 100px;
+        margin-top: 40px; 
+        margin-left: 10px;   
+    }
+
+    .read-more-button-pc {
+        display: block;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 18.15px;
+        width: 96px;
+        height: 18px;
+        top: 585px;
+        left: 291px;
+        color: #D9852C;
+        background-color: white;
+        border: transparent;
+        margin-top: 50px;
+        margin-left: 250px;
+        margin-bottom: 30px;
+    }
+
+
+    .para-info-pc {
+        display: block;
+        border: 1px solid #DDDDDD;
+        margin-top: 0;
+    }
+
+    .empty {
+        height: 50px;
+    }
+
 
 }
